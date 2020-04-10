@@ -11,9 +11,10 @@
 
 # Introduction
 
-Bootstrap and package your project with Angular 9 and Electron 8 (Typescript + SASS + Hot Reload) for creating Desktop applications.
+Bootstrap and package your project with Angular 9, Electron 8 and Angular Materials (Typescript + SASS + Hot Reload) for creating Desktop applications.
+Based on the [angular-electron](https://github.com/maximegris/angular-electron) repository of Maxime Gris.
 
-Currently runs with:
+Currently, runs with:
 
 - Angular v9.1.1
 - Electron v8.2.1
@@ -34,7 +35,7 @@ With this sample, you can :
 Clone this repository locally :
 
 ``` bash
-git clone https://github.com/maximegris/angular-electron.git
+git clone https://github.com/CPrescher/angular-electron-material.git
 ```
 
 Install dependencies with npm :
@@ -86,7 +87,6 @@ YES! You can do it! Just by importing your library in npm dependencies section (
 Maybe you want to execute the application in the browser with hot reload ? Just run `npm run ng:serve:web`.
 **Note that you can't use Electron or NodeJS native libraries in this case.** Please check `providers/electron.service.ts` to watch how conditional import of electron/Native libraries is done.
 
-## Branch & Packages version
 
 - Angular 4 & Electron 1 : Branch [angular4](https://github.com/maximegris/angular-electron/tree/angular4)
 - Angular 5 & Electron 1 : Branch [angular5](https://github.com/maximegris/angular-electron/tree/angular5)

@@ -1,15 +1,16 @@
 {
-  "name": "angular-electron",
-  "version": "7.0.4",
-  "description": "Angular 9 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "angular-electron-material",
+  "version": "0.0.1",
+  "description": "Angular 9 with Electron and Materials Library (Typescript + SASS + Hot Reload)",
+  "homepage": "https://github.com/CPrescher/angular-electron-material",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Clemens Prescher",
+    "email": "clemens.prescher@gmail.com"
   },
   "keywords": [
     "angular",
     "angular 9",
+    "material library",
     "electron",
     "typescript",
     "eslint",
@@ -90,5 +91,11 @@
   },
   "engines": {
     "node": ">=10.13.0"
+  },
+  "dependencies": {
+    "@angular/animations": "^9.0.0 || ^10.0.0-0",
+    "@angular/cdk": "9.2.0",
+    "@angular/forms": "^9.0.0 || ^10.0.0-0",
+    "@angular/material": "9.2.0"
   }
 }
