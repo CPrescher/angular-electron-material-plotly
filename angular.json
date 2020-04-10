@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron": {
+    "angular-electron-material": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -25,6 +25,7 @@
               "src/favicon.512x512.png"
             ],
             "styles": [
+              "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -89,24 +90,24 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "angular-electron-material:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "angular-electron:build:dev"
+              "browserTarget": "angular-electron-material:build:dev"
             },
             "web": {
-              "browserTarget": "angular-electron:build:web"
+              "browserTarget": "angular-electron-material:build:web"
             },
             "production": {
-              "browserTarget": "angular-electron:build:production"
+              "browserTarget": "angular-electron-material:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "angular-electron-material:build"
           }
         },
         "test": {
@@ -149,7 +150,7 @@
         }
       }
     },
-    "angular-electron-e2e": {
+    "angular-electron-material-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
@@ -168,7 +169,7 @@
       }
     }
   },
-  "defaultProject": "angular-electron",
+  "defaultProject": "angular-electron-material",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
@@ -177,5 +178,8 @@
     "@schematics/angular:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
