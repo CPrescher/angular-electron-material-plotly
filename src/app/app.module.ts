@@ -8,6 +8,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
+import { PlotlyViaWindowModule } from 'angular-plotly.js';
+
 import { AppRoutingModule } from './app-routing.module';
 
 // NG Translate
@@ -32,6 +34,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     FormsModule,
     HttpClientModule,
     CoreModule,
+    PlotlyViaWindowModule,
     SharedModule,
     HomeModule,
     DetailModule,
