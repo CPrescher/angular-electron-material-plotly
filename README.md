@@ -54,6 +54,11 @@ Please follow [Angular-cli documentation](https://github.com/angular/angular-cli
 npm install -g @angular/cli
 ```
 
+## Angular Materials Theme
+
+The default angular material theme is set in the angular.json file to indigo-pink. Please see the 
+[angular theming website](https://material.angular.io/guide/theming), for instructions to switch the theme or create a custom theme.
+
 ## To build for development
 
 - **in a terminal window** -> npm start
