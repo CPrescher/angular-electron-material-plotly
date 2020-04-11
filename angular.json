@@ -30,7 +30,9 @@
               "src/assets/CSS/roboto.css",
               "src/assets/CSS/material-icons/material-icons.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/plotly.js/dist/plotly.min.js"
+            ],
             "customWebpackConfig": {
               "path": "./angular.webpack.js"
             }
