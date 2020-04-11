@@ -1,8 +1,8 @@
 {
-  "name": "angular-electron-material",
+  "name": "angular-electron-material-plotly",
   "version": "0.0.1",
-  "description": "Angular 9 with Electron and Materials Library (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/CPrescher/angular-electron-material",
+  "description": "Angular 9 with Electron and Materials Library (Typescript + SASS + Hot Reload) + Plotly integration",
+  "homepage": "https://github.com/CPrescher/angular-electron-material-plotly",
   "author": {
     "name": "Clemens Prescher",
     "email": "clemens.prescher@gmail.com"
@@ -12,6 +12,7 @@
     "angular 9",
     "material library",
     "electron",
+    "plotly",
     "typescript",
     "eslint",
     "spectron",

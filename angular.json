@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron-material": {
+    "angular-electron-material-plotly": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -94,24 +94,24 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "angular-electron-material:build"
+            "browserTarget": "angular-electron-material-plotly:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "angular-electron-material:build:dev"
+              "browserTarget": "angular-electron-material-plotly:build:dev"
             },
             "web": {
-              "browserTarget": "angular-electron-material:build:web"
+              "browserTarget": "angular-electron-material-plotly:build:web"
             },
             "production": {
-              "browserTarget": "angular-electron-material:build:production"
+              "browserTarget": "angular-electron-material-plotly:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron-material:build"
+            "browserTarget": "angular-electron-material-plotly:build"
           }
         },
         "test": {
@@ -154,7 +154,7 @@
         }
       }
     },
-    "angular-electron-material-e2e": {
+    "angular-electron-material-plotly-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
@@ -173,7 +173,7 @@
       }
     }
   },
-  "defaultProject": "angular-electron-material",
+  "defaultProject": "angular-electron-material-plotly",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
