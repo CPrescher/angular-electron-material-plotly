@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './shared/components';
+import { PlotComponent } from './plot/plot.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'plot',
     pathMatch: 'full'
+  },
+  {
+    path: 'plot',
+    component: PlotComponent
   },
   {
     path: '**',
